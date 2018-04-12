@@ -1,0 +1,6 @@
+framework module Pods_Kwikkutz {
+  umbrella header "Pods-Kwikkutz-umbrella.h"
+
+  export *
+  module * { export * }
+}
