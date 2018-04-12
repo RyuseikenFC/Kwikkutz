@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B0334A26207FF189002484EA /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0334A25207FF188002484EA /* loginVC.swift */; };
 		B0334A2A207FF1F8002484EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0334A29207FF1F8002484EA /* SignUpVC.swift */; };
+		B0334A2C207FFD9C002484EA /* KMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0334A2B207FFD9C002484EA /* KMapVC.swift */; };
+		B0334A2E207FFE82002484EA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0334A2D207FFE82002484EA /* CoreLocation.framework */; };
+		B0334A302080013B002484EA /* StartUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0334A2F2080013A002484EA /* StartUpVC.swift */; };
+		B0334A3220800165002484EA /* GetInLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0334A3120800165002484EA /* GetInLineVC.swift */; };
 		B086D999207FDA1E00EDE71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086D998207FDA1D00EDE71C /* AppDelegate.swift */; };
 		B086D99B207FDA1E00EDE71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086D99A207FDA1E00EDE71C /* ViewController.swift */; };
 		B086D99E207FDA2000EDE71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B086D99C207FDA2000EDE71C /* Main.storyboard */; };
@@ -22,6 +26,10 @@
 		8AF9DC7E8DFE673C9B3949A0 /* Pods-Kwikkutz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kwikkutz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kwikkutz/Pods-Kwikkutz.release.xcconfig"; sourceTree = "<group>"; };
 		B0334A25207FF188002484EA /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		B0334A29207FF1F8002484EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		B0334A2B207FFD9C002484EA /* KMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMapVC.swift; sourceTree = "<group>"; };
+		B0334A2D207FFE82002484EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0334A2F2080013A002484EA /* StartUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpVC.swift; sourceTree = "<group>"; };
+		B0334A3120800165002484EA /* GetInLineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInLineVC.swift; sourceTree = "<group>"; };
 		B086D995207FDA1900EDE71C /* Kwikkutz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwikkutz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B086D998207FDA1D00EDE71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B086D99A207FDA1E00EDE71C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0334A2E207FFE82002484EA /* CoreLocation.framework in Frameworks */,
 				C5DA9BE0968AB761CF737714 /* Pods_Kwikkutz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +58,7 @@
 		2423DC997926A04F0120B08B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0334A2D207FFE82002484EA /* CoreLocation.framework */,
 				E26721CF4B71F1B187645E40 /* Pods_Kwikkutz.framework */,
 			);
 			name = Frameworks;
@@ -73,6 +83,9 @@
 			children = (
 				B0334A25207FF188002484EA /* loginVC.swift */,
 				B0334A29207FF1F8002484EA /* SignUpVC.swift */,
+				B0334A2B207FFD9C002484EA /* KMapVC.swift */,
+				B0334A2F2080013A002484EA /* StartUpVC.swift */,
+				B0334A3120800165002484EA /* GetInLineVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -242,10 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0334A2C207FFD9C002484EA /* KMapVC.swift in Sources */,
 				B0334A2A207FF1F8002484EA /* SignUpVC.swift in Sources */,
 				B086D99B207FDA1E00EDE71C /* ViewController.swift in Sources */,
 				B0334A26207FF189002484EA /* loginVC.swift in Sources */,
+				B0334A302080013B002484EA /* StartUpVC.swift in Sources */,
 				B086D999207FDA1E00EDE71C /* AppDelegate.swift in Sources */,
+				B0334A3220800165002484EA /* GetInLineVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
